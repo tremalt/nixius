@@ -1,2 +1,20 @@
-# nixius
-nixius
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nixius", "Sentinel")
+--GAMES
+local Games = Window:NewTab("Games")
+local GamesSection = Games:NewSection("Games")
+GamesSection:NewButton("Lumber tycoon gui", "lumber tycoon gui", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trem2goated/sdawd/main/README.md'))()
+end)
+GamesSection:NewButton("Jailbreak gui", "Jailbreak gui", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/sT8E7s6g'))()
+end)
+GamesSection:NewButton("Southwest Florida gui", "Southwest Florida gui", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trem2goated/gui-for-sc/main/README.md'))()
+end)
+GamesSection:NewButton("Hoops Life Basketball gui", "Hoops Life Basketball gui", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trem2goated/Hoops-Life-Basketball-gui./main/README.md'))()
+end)
+GamesSection:NewButton("Arsenal gui", "Arsenal gui", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trem2goated/cxcsadw/main/README.md'))()
+end)
